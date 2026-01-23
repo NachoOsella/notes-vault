@@ -1,0 +1,12 @@
+# Obsidian ephemeral state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Common trash folders
+.trash/
+Trash/
