@@ -4,6 +4,7 @@
 
 [![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?logo=obsidian&logoColor=fff)](#)
 [![Markdown](https://img.shields.io/badge/Markdown-000?logo=markdown&logoColor=fff)](#)
+[![Gruvbox](https://img.shields.io/badge/Gruvbox-fe8019?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjQiLz48L3N2Zz4=&logoColor=fff)](#)
 
 Notas de cursada universitaria en formato Markdown, diseñadas para navegación con wikilinks y mapas de contenido (MOCs).
 
