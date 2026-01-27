@@ -19,6 +19,7 @@ HTML (HyperText Markup Language) es el lenguaje de marcado estándar para la cre
 
 ## Comparaciones típicas
 - vs [[CSS - Definición]]: HTML define la estructura y el contenido, mientras que CSS se encarga del estilo y la presentación visual.
+- vs [[JS - Funciones]]: HTML estructura; JS aporta comportamiento (funciones) sobre esa estructura.
 
 ## Preguntas de examen
 - ¿Qué es HTML?

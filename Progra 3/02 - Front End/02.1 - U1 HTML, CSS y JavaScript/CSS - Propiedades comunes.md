@@ -20,7 +20,6 @@ Son atributos que definen cómo se verá un elemento HTML en términos de estilo
 ## Comparaciones típicas
 - vs [[CSS - Selectores]]: los selectores eligen a qué se le aplica estilo; las propiedades definen qué estilo se aplica.
 - vs [[CSS - Box Model]]: el box model es el marco conceptual; las propiedades (margin/padding/border/width) lo modifican.
-- vs [[Tailwind - Sintaxis básica]]: en CSS escribís propiedades dentro de reglas; en Tailwind las expresás como clases.
 
 ## Preguntas de examen
 - ¿Qué es una propiedad en CSS?

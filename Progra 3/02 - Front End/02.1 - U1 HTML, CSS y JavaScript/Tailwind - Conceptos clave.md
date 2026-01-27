@@ -19,7 +19,6 @@ Tailwind CSS es un framework de CSS basado en utilidades que permite construir i
 
 ## Comparaciones típicas
 - vs [[CSS - Definición]]: CSS es el lenguaje; Tailwind es un framework de utilidades que genera CSS.
-- vs [[CSS - Selectores]]: en CSS escribís selectores/reglas; en Tailwind componés estilos con clases utility.
 - vs [[Tailwind - Sintaxis básica]]: conceptos clave explican el enfoque; sintaxis básica muestra cómo se escribe.
 
 ## Preguntas de examen

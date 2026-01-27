@@ -18,6 +18,7 @@ CSS (Cascading Style Sheets) es un lenguaje de hojas de estilo utilizado para de
 
 ## Comparaciones típicas
 - vs [[HTML - Definición]]: HTML define la estructura y el contenido de una página web, mientras que CSS se encarga de su apariencia visual.
+- vs [[Tailwind - Conceptos clave]]: CSS es el lenguaje; Tailwind es un framework que genera CSS a partir de utilidades.
 
 ## Preguntas de examen
 - ¿Qué es CSS y cuál es su propósito?

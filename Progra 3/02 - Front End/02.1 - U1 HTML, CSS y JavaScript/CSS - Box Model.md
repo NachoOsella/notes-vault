@@ -20,7 +20,6 @@ Todos los elementos HTML se representan como cajas rectangulares que consisten e
 ## Comparaciones típicas
 - vs [[CSS - Propiedades comunes]]: el box model explica cómo se calcula el tamaño/espacio; las propiedades son las herramientas para ajustarlo.
 - vs [[CSS - Diseño responsivo]]: el box model define medidas/espaciado; el responsivo decide cómo adaptarlos según el viewport.
-- vs [[Tailwind - Sintaxis básica]]: en CSS ajustás con propiedades; en Tailwind aplicás el mismo efecto con clases utility.
 
 ## Preguntas de examen
 - ¿Qué es el box model en CSS?

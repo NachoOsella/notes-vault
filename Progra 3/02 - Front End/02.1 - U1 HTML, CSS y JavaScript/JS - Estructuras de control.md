@@ -21,7 +21,6 @@ Las estructuras de control en JavaScript son construcciones que permiten dirigir
 ## Comparaciones típicas
 - vs [[JS - Funciones]]: control define el flujo (if/for/while); funciones encapsulan lógica reutilizable.
 - vs [[HTML - Definición]]: HTML estructura contenido; JS decide qué se ejecuta y cuándo (comportamiento).
-- vs [[CSS - Definición]]: CSS define apariencia; JS define lógica y decisiones.
 
 ## Preguntas de examen
 - ¿Qué es una estructura de control en JavaScript?

@@ -20,7 +20,6 @@ Las funciones en JavaScript son bloques de código reutilizables que realizan un
 ## Comparaciones típicas
 - vs [[JS - Estructuras de control]]: funciones organizan/reutilizan código; control decide qué caminos se ejecutan.
 - vs [[HTML - Definición]]: HTML describe estructura; funciones implementan comportamiento sobre esa estructura.
-- vs [[CSS - Definición]]: CSS estiliza; funciones en JS pueden cambiar datos/estado que afectan lo que se muestra.
 
 ## Preguntas de examen
 - ¿Qué es una función en JavaScript?

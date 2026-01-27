@@ -20,6 +20,7 @@ Las etiquetas semánticas en HTML son elementos que describen el significado del
 
 ## Comparaciones típicas
 - vs [[HTML - Principales etiquetas]]: Las etiquetas semánticas aportan significado al contenido, mientras que las etiquetas generales como `<div>` y `<span>` son más flexibles pero carecen de significado específico.
+- vs [[HTML - Definición]]: HTML define la estructura; las etiquetas semánticas son una forma de expresar esa estructura con significado.
 
 ## Preguntas de examen
 - ¿Qué es una etiqueta semántica?

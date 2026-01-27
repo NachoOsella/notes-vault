@@ -25,7 +25,6 @@ La sintaxis de Tailwind es muy amplia, algunos de los ejemplos más comunes incl
 ## Comparaciones típicas
 - vs [[CSS - Propiedades comunes]]: Tailwind expresa propiedades como clases; CSS las expresa como reglas.
 - vs [[Tailwind - Conceptos clave]]: conceptos es el modelo mental; sintaxis es la aplicación concreta en el HTML.
-- vs [[CSS - Selectores]]: Tailwind aplica estilos sin escribir selectores; CSS requiere selectores para aplicar reglas.
 
 ## Preguntas de examen
 - ¿Qué es la sintaxis de Tailwind?

@@ -18,7 +18,6 @@ Es una técnica que permite que las páginas web se adapten a los diferentes tam
 - Grid layout
 
 ## Comparaciones típicas
-- vs [[CSS - Box Model]]: responsivo trata la adaptación por tamaño de pantalla; box model trata el espacio de un elemento.
 - vs [[Tailwind - Conceptos clave]]: responsivo en CSS usa media queries; en Tailwind se aplica con prefijos de breakpoints.
 - vs [[CSS - Propiedades comunes]]: el responsivo combina propiedades con reglas condicionales; las propiedades son los bloques base.
 

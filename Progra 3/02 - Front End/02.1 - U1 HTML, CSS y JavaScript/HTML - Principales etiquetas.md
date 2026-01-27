@@ -19,6 +19,7 @@ Las etiquetas HTML son elementos fundamentales para estructurar y presentar cont
 
 ## Comparaciones típicas
 - vs [[HTML - Etiquetas semánticas]]: Las etiquetas semánticas proporcionan significado al contenido, mientras que las etiquetas generales como `<div>` y `<span>` son más flexibles pero menos descriptivas.
+- vs [[CSS - Selectores]]: HTML define elementos/etiquetas; los selectores son la forma de apuntarlos para aplicar estilos.
 
 ## Preguntas de examen
 - ¿Qué es una etiqueta HTML?
@@ -33,4 +34,3 @@ Las etiquetas HTML son elementos fundamentales para estructurar y presentar cont
 ## Mini-ejemplo (mental)
 - `<h1>Título Principal</h1>`: Define un encabezado de nivel 1.
 - `<p>Este es un párrafo de texto.</p>`: Define un párrafo
-

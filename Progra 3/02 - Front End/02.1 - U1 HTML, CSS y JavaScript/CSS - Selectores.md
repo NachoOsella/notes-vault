@@ -21,7 +21,6 @@ Existen varios tipos de selectores, como selectores de tipo, clase, ID, atributo
 ## Comparaciones típicas
 - vs [[HTML - Principales etiquetas]]: HTML define los elementos; los selectores son la forma de apuntar a esos elementos para estilarlos.
 - vs [[CSS - Propiedades comunes]]: selectores apuntan a elementos; propiedades aplican el estilo.
-- vs [[Tailwind - Sintaxis básica]]: con selectores escribís reglas CSS; con Tailwind aplicás estilos directamente con clases.
 
 ## Preguntas de examen
 - ¿Qué es un selector en CSS?
