@@ -1,29 +1,57 @@
-# Apuntes (Obsidian)
+<div align="center">
 
-Notas de cursada y repaso en Markdown, pensadas para navegar con enlaces internos y MOCs.
+# Apuntes
 
-## Uso
+[![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?logo=obsidian&logoColor=fff)](#)
+[![Markdown](https://img.shields.io/badge/Markdown-000?logo=markdown&logoColor=fff)](#)
 
-1. Cloná el repo.
-2. En Obsidian: **Open folder as vault** y seleccioná esta carpeta.
+Notas de cursada universitaria en formato Markdown, diseñadas para navegación con wikilinks y mapas de contenido (MOCs).
+
+</div>
+
+---
+
+## Metodología
+
+Cada nota sigue una plantilla orientada a **comprensión y repaso**:
+
+| Sección | Propósito |
+|---------|-----------|
+| **Definición** | Concepto en una oración |
+| **Explicación** | Qué problema resuelve, cómo funciona, qué permite |
+| **Palabras clave** | Términos para búsqueda rápida |
+| **Comparaciones** | Diferencias con conceptos similares |
+| **Preguntas de examen** | Autoevaluación |
+| **Errores comunes** | Confusiones típicas a evitar |
+
+Las notas se organizan en carpetas por unidad, con prefijos numéricos para mantener el orden. Cada unidad incluye un **MOC** (índice de navegación) y una página de **Preguntas** para repaso.
+
+---
 
 ## Estructura
 
-- [`Progra 3/`](<Progra 3/>) - Apuntes de Programación III (Front End, Back End y anexos)
-- [`Plantilla.md`](Plantilla.md) - Plantilla base para nuevas notas
-- `.obsidian/` - Configuración del vault (tema/plugins). El estado efímero se ignora vía `.gitignore`.
+```
+.
+├── Progra 3/                  # Programación III
+│   ├── 01 - Fundamentos Web/
+│   ├── 02 - Front End/
+│   └── 03 - Back End/
+├── Plantilla.md               # Template para nuevas notas
+└── .obsidian/                 # Configuración del vault
+```
 
-## Atajos
+---
 
-- MOCs: [Fundamentos Web](<Progra 3/01 - Fundamentos Web (U1 anexos)/MOC - Fundamentos Web.md>), [FE U1](<Progra 3/02 - Front End/02.1 - U1 HTML, CSS y JavaScript/MOC - FE U1.md>), [FE U2](<Progra 3/02 - Front End/02.2 - U2 DOM y JavaScript Avanzado/MOC - FE U2.md>), [TypeScript](<Progra 3/02 - Front End/02.3 - U3 TypeScript/MOC - FE U3 TypeScript.md>), [BE U2](<Progra 3/03 - Back End/03.1 - U2 Maven y Testing/MOC - BE U2.md>), [Algoritmos](<Progra 3/03 - Back End/03.2 - U3 Algoritmos/MOC - BE U3 Algoritmos.md>), [Spring](<Progra 3/03 - Back End/03.3 - Spring y Spring Boot/MOC - Spring y Spring Boot.md>)
-- Preguntas: [Fundamentos Web](<Progra 3/01 - Fundamentos Web (U1 anexos)/Preguntas - Fundamentos Web.md>), [FE U1](<Progra 3/02 - Front End/02.1 - U1 HTML, CSS y JavaScript/Preguntas - FE U1.md>), [FE U2](<Progra 3/02 - Front End/02.2 - U2 DOM y JavaScript Avanzado/Preguntas - FE U2.md>), [TypeScript](<Progra 3/02 - Front End/02.3 - U3 TypeScript/Preguntas - FE U3 TypeScript.md>), [BE U2](<Progra 3/03 - Back End/03.1 - U2 Maven y Testing/Preguntas - BE U2.md>), [Algoritmos](<Progra 3/03 - Back End/03.2 - U3 Algoritmos/Preguntas - BE U3 Algoritmos.md>), [Spring](<Progra 3/03 - Back End/03.3 - Spring y Spring Boot/Preguntas - Spring y Spring Boot.md>)
+## Uso
 
-## Convenciones
+```bash
+git clone <repo-url>
+```
 
-- Prefijos numéricos para ordenar unidades y carpetas.
-- `MOC - ...` para mapas de contenido; `Preguntas - ...` para repaso tipo examen.
-- Nombres de notas estilo `Tema - Subtema.md`.
+Abrir en Obsidian: **Open folder as vault** → seleccionar la carpeta clonada.
 
-## Nota
+---
 
-Este repositorio es un material personal de estudio: puede estar incompleto y contener errores.
+<div align="center">
+<sub>Material personal de estudio — puede contener errores o estar incompleto.</sub>
+</div>
