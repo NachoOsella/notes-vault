@@ -1,5 +1,4 @@
 # Cliente-Servidor - Clientes y servidores
-# Cliente-Servidor - Clientes y servidores
 
 ## Definición
 Diferenciación entre los roles de cliente (demandante) y servidor (proveedor) en la arquitectura cliente-servidor.
@@ -18,6 +17,7 @@ Diferenciación entre los roles de cliente (demandante) y servidor (proveedor) e
 - Capacidad
 - Servicios
 - Red
+- Acceso remoto
 
 ## Comparaciones típicas
 - vs [[Cliente-Servidor - Componentes]]: acá se explican roles; el otro lista todas las piezas (red, protocolo, servicio, BD, etc.).
@@ -31,41 +31,7 @@ Diferenciación entre los roles de cliente (demandante) y servidor (proveedor) e
 
 ## Errores comunes
 - Pensar que cliente y servidor siempre son máquinas distintas (pueden ser procesos en la misma PC).
-- Creer que el servidor inicia la comunicación.
+- Creer que el servidor inicia la comunicación (el cliente siempre inicia las peticiones).
 
 ## Mini-ejemplo (mental)
 - En una empresa, cada PC de los empleados es cliente y el servidor central guarda los archivos y corre el sistema de correo.
-## Definicion
-Roles principales del modelo: el cliente demanda servicios y el servidor los provee a traves de una red.
-
-## Explicacion
-- *Que problema resuelve*
-    Aclara responsabilidades y capacidades de cada parte para organizar la comunicacion y el acceso a datos.
-- *Como funciona por arriba*
-    El cliente suele ser una computadora o aplicacion de uso diario que accede a los servicios del servidor mediante Internet o una red interna. El servidor es una maquina con mayor capacidad que almacena archivos, ejecuta aplicaciones y atiende multiples solicitudes en simultaneo.
-- *Que implica / que permite*
-    Permite centralizar datos y servicios en el servidor y distribuir el acceso a muchos clientes. Un cliente puede actuar como servidor para tareas simples guardando datos locales y evitando consultas constantes.
-
-## Palabras clave
-- Cliente
-- Servidor
-- Capacidad
-- Acceso remoto
-- Almacenamiento
-
-## Comparaciones típicas
-- vs [[Cliente-Servidor - Componentes]]: acá se describen roles; el otro detalla todas las piezas del modelo.
-- vs [[HTTP - User Agent (cliente)]]: el user agent es el cliente concreto en HTTP (quien inicia la comunicación).
-- vs [[HTTP - Servidor Web]]: el servidor web es el servidor concreto en HTTP (quien responde).
-
-## Preguntas de examen
-- Que diferencia a un cliente de un servidor?
-- Por que el servidor suele ser mas potente?
-- Puede un cliente cumplir funciones de servidor?
-
-## Errores comunes
-- Creer que cliente y servidor deben estar en maquinas distintas (pueden convivir en una misma).
-- Pensar que el servidor inicia la comunicacion (el cliente inicia las peticiones).
-
-## Mini-ejemplo (mental)
-- En una empresa, las PCs de los empleados (clientes) consultan al servidor central para acceder a archivos y correos.

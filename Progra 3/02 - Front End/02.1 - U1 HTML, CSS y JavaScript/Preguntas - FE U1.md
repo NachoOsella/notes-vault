@@ -1,64 +1,86 @@
 # Preguntas - FE U1
 
 ## HTML
-- ¿Qué es HTML y para qué sirve?
-- ¿Cuál es la diferencia entre HTML y CSS?
-- ¿Cuál es la diferencia entre HTML y JavaScript?
-- ¿Qué es una etiqueta HTML?
-- ¿Cuál es la diferencia entre etiquetas semánticas y no semánticas?
-
-## CSS
-- ¿Qué es CSS y cuál es su propósito?
-- ¿Qué es un selector en CSS?
-- ¿Qué diferencia hay entre selectores y propiedades?
-- ¿Qué es el box model y qué partes lo componen?
-- ¿Qué significa diseño responsivo y con qué se implementa normalmente?
-
-## JavaScript
-- ¿Qué es una función y para qué se usa?
-- ¿Qué diferencia hay entre parámetros y valor de retorno?
-- ¿Para qué sirven las estructuras de control?
-- ¿Cuándo usarías un if/else vs un loop?
-
-## Tailwind
-- ¿Qué es Tailwind y por qué se lo llama utility-first?
-- ¿Qué diferencia hay entre usar CSS puro y usar Tailwind?
-- ¿Qué implica "instalar" Tailwind (qué habilita)?
-- ¿Cómo se expresa un estilo en Tailwind (clases) vs en CSS (reglas)?
-
-# Preguntas - FE U1
-
-## HTML
 
 ### Que es HTML?
 Respuesta: Lenguaje de marcado para estructurar contenido web con etiquetas. Ver: [[HTML - Definición]]
 
+### Para que sirve HTML?
+Respuesta: Define la estructura y el contenido de una pagina web (texto, imagenes, enlaces, formularios).
+
+### Cual es la diferencia entre HTML y CSS?
+Respuesta: HTML estructura el contenido; CSS define la presentacion visual (colores, fuentes, margenes).
+
 ### Cual es la diferencia entre etiquetas semanticas y no semanticas?
-Respuesta: Las semanticas aportan significado (mejoran accesibilidad/SEO); las no semanticas son genericas (div/span). Ver: [[HTML - Etiquetas semánticas]]
+Respuesta: Las semanticas aportan significado (header, nav, article, footer - mejoran accesibilidad/SEO); las no semanticas son genericas (div, span). Ver: [[HTML - Etiquetas semánticas]]
+
+### Cuales son las etiquetas HTML mas importantes?
+Respuesta: Estructura (html, head, body), texto (h1-h6, p), listas (ul, ol, li), enlaces (a), imagenes (img), formularios (form, input). Ver: [[HTML - Principales etiquetas]]
+
+---
 
 ## CSS
 
-### Que es CSS y que hace en una pagina?
-Respuesta: Define la presentacion visual (estilos) separada de la estructura HTML. Ver: [[CSS - Definición]]
+### Que es CSS y que hace?
+Respuesta: Define la presentacion visual separada de la estructura HTML (colores, fuentes, espaciado, layout). Ver: [[CSS - Definición]]
+
+### Que es un selector en CSS?
+Respuesta: Patron que apunta a elementos HTML para aplicarles estilos (elemento, clase, id, atributo). Ver: [[CSS - Selectores]]
 
 ### Que diferencia hay entre selectores y propiedades?
-Respuesta: El selector apunta a elementos; las propiedades definen el estilo aplicado (color, margin, etc.). Ver: [[CSS - Selectores]]
+Respuesta: El selector apunta a elementos; las propiedades definen el estilo aplicado (color, margin, font-size).
 
 ### Que es el box model?
-Respuesta: Modelo mental del tamanio y espacio de un elemento (content/padding/border/margin). Ver: [[CSS - Box Model]]
+Respuesta: Modelo del tamanio de un elemento: content + padding + border + margin. Ver: [[CSS - Box Model]]
+
+### Que es diseno responsivo?
+Respuesta: Tecnica para que la pagina se adapte a distintos tamanios de pantalla usando media queries, flexbox, grid. Ver: [[CSS - Diseño responsivo]]
+
+### Cuales son las propiedades CSS mas comunes?
+Respuesta: color, background, margin, padding, border, font-size, display, position, flexbox/grid. Ver: [[CSS - Propiedades comunes]]
+
+---
 
 ## JavaScript
 
 ### Que es una funcion?
-Respuesta: Bloque reutilizable que encapsula una tarea y puede recibir parametros y devolver un resultado. Ver: [[JS - Funciones]]
+Respuesta: Bloque reutilizable que encapsula una tarea, puede recibir parametros y devolver un resultado. Ver: [[JS - Funciones]]
+
+### Cual es la diferencia entre parametros y valor de retorno?
+Respuesta: Parametros son datos de entrada; el valor de retorno es el resultado que devuelve la funcion.
 
 ### Para que sirven las estructuras de control?
-Respuesta: Controlan el flujo (decisiones y repeticiones) para ejecutar caminos distintos segun condiciones. Ver: [[JS - Estructuras de control]]
+Respuesta: Controlan el flujo del programa: decisiones (if/else, switch) y repeticiones (for, while). Ver: [[JS - Estructuras de control]]
+
+### Cuando usar if/else vs un loop?
+Respuesta: if/else para decisiones (ejecutar un camino u otro); loops para repetir acciones multiples veces.
+
+---
 
 ## Tailwind
 
 ### Que es Tailwind?
-Respuesta: Framework CSS de utilidades: compones estilos con clases en el HTML en vez de escribir muchas reglas a mano. Ver: [[Tailwind - Conceptos clave]]
+Respuesta: Framework CSS de utilidades: compones estilos con clases en el HTML en vez de escribir reglas CSS separadas. Ver: [[Tailwind - Conceptos clave]]
 
-### Que diferencia hay entre instalar Tailwind y usar su sintaxis?
-Respuesta: Instalacion configura el build/generacion de CSS; sintaxis es como aplicar utilidades en el markup. Ver: [[Tailwind - Conceptos clave]] y [[Tailwind - Sintaxis básica]]
+### Que significa utility-first?
+Respuesta: Cada clase hace una sola cosa (ej: `text-red-500`, `p-4`); combinas muchas clases para crear el estilo completo.
+
+### Que diferencia hay entre CSS puro y Tailwind?
+Respuesta: CSS puro = escribis reglas en archivos .css; Tailwind = usas clases predefinidas directamente en el HTML.
+
+### Como se aplica un estilo en Tailwind?
+Respuesta: Con clases en el atributo class del HTML: `<div class="bg-blue-500 p-4 rounded">`. Ver: [[Tailwind - Sintaxis básica]]
+
+---
+
+## Respuestas rapidas
+
+| Pregunta | Respuesta corta |
+|----------|-----------------|
+| HTML vs CSS | HTML = estructura; CSS = estilo |
+| HTML vs JS | HTML = contenido; JS = comportamiento |
+| Etiqueta semantica | Aporta significado (header, nav, article) |
+| Box model | content + padding + border + margin |
+| Media query | Aplica estilos segun tamanio de pantalla |
+| Funcion JS | Bloque reutilizable con parametros y retorno |
+| Tailwind | Framework CSS utility-first |

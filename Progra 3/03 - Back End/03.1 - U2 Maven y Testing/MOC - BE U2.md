@@ -1,18 +1,36 @@
 # MOC - BE U2
 
-## Definición
+## Mapa rápido
+Esta unidad cubre **Maven** (gestión de proyectos y dependencias) y **Testing** (JUnit, Mockito, Reflection).
 
-## Explicación
-- *Qué problema resuelve*
-- *Cómo funciona por arriba*
-- *Qué implica / qué permite*
+## Maven
+- [[Maven - Conceptos básicos]]
+- [[Maven - Instalación y configuración]]
+- [[Maven - Archivos de configuración]]
+- [[Maven - Ciclo de vida]]
+- [[Maven - Plugins]]
+- [[Maven - Gestión de dependencias]]
+- [[Maven - Archetype]]
 
-## Palabras clave
+## Testing - Conceptos
+- [[Testing - Introducción]]
+- [[Testing - Fundamentos]]
+- [[Testing - Tests unitarios]]
+- [[Testing - Writing tests]]
 
-## Comparaciones típicas
+## Mockito
+- [[Mockito - mock() y @Mock]]
+- [[Mockito - spy() y @Spy]]
+- [[Mockito - @InjectMocks]]
+- [[Mockito - when()]]
+- [[Mockito - thenReturn()]]
+- [[Mockito - thenThrow()]]
+- [[Mockito - doNothing()]]
+- [[Mockito - verify()]]
 
-## Preguntas de examen
+## Reflection
+- [[Reflection - Concepto]]
+- [[ReflectionSupport (JUnit)]]
 
-## Errores comunes
-
-## Mini-ejemplo (mental)
+## Evaluación
+- [[Preguntas - BE U2]]
