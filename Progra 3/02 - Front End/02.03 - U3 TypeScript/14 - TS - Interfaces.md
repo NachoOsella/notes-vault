@@ -40,7 +40,7 @@ function imprimirUsuario(u: Usuario) {
 ## Comparaciones típicas
 
 - vs [[13 - TS - Alias de tipo]]: ambas describen objetos, pero `interface` está orientada a estructuras extensibles.
-- vs [[23 - TS - Implementación de interfaces]]: `implements` en clases obliga a cumplir la forma de la interface.
+- vs [[24 - TS - Implementación de interfaces]]: `implements` en clases obliga a cumplir la forma de la interface.
 
 ## Preguntas de examen
 

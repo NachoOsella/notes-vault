@@ -43,89 +43,12 @@ mindmap
       instanceof
 ```
 
-## Operadores aritméticos
+## Reglas rápidas
 
-| Operador | Descripción | Ejemplo | Resultado |
-|----------|-------------|---------|-----------|
-| `+` | Suma | `5 + 3` | `8` |
-| `-` | Resta | `5 - 3` | `2` |
-| `*` | Multiplicación | `5 * 3` | `15` |
-| `/` | División | `5 / 3` | `1` (enteros) |
-| `%` | Módulo (resto) | `5 % 3` | `2` |
-
-### Incremento/Decremento
-
-| Operador | Descripción | Ejemplo |
-|----------|-------------|---------|
-| `++` | Incremento en 1 | `x++` o `++x` |
-| `--` | Decremento en 1 | `x--` o `--x` |
-
-> **Pre vs Post**: `++x` incrementa antes de usar; `x++` usa y luego incrementa
-
-## Operadores relacionales
-
-| Operador | Significado | Ejemplo |
-|----------|-------------|---------|
-| `==` | Igual a | `a == b` |
-| `!=` | Distinto de | `a != b` |
-| `<` | Menor que | `a < b` |
-| `>` | Mayor que | `a > b` |
-| `<=` | Menor o igual | `a <= b` |
-| `>=` | Mayor o igual | `a >= b` |
-
-> ⚠️ `=` es asignación; `==` es comparación
-
-## Operadores lógicos
-
-| Operador | Descripción | Uso |
-|----------|-------------|-----|
-| `&&` | AND (y) | `a && b` - true si ambos son true |
-| `\|\|` | OR (o) | `a \|\| b` - true si al menos uno es true |
-| `!` | NOT (negación) | `!a` - invierte el valor |
-
-### Cortocircuito
-
-- `&&`: Si el primero es false, no evalúa el segundo
-- `||`: Si el primero es true, no evalúa el segundo
-
-## Operadores de asignación
-
-| Operador | Equivalente | Descripción |
-|----------|-------------|-------------|
-| `=` | `a = b` | Asigna valor |
-| `+=` | `a = a + b` | Suma y asigna |
-| `-=` | `a = a - b` | Resta y asigna |
-| `*=` | `a = a * b` | Multiplica y asigna |
-| `/=` | `a = a / b` | Divide y asigna |
-| `%=` | `a = a % b` | Módulo y asigna |
-
-## Precedencia de operadores
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#1d2021', 'primaryTextColor': '#ebdbb2', 'primaryBorderColor': '#928374', 'lineColor': '#a89984', 'secondaryColor': '#282828', 'tertiaryColor': '#3c3836'}}}%%
-graph TD
-    A[Precedencia<br/>Mayor a menor]
-    A --> B[() Paréntesis]
-    B --> C[++ -- !]
-    C --> D[* / %]
-    D --> E[+ -]
-    E --> F[< <= > >=]
-    F --> G[== !=]
-    G --> H[&&]
-    H --> I[||]
-    I --> J[= += -= etc]
-    
-    style A fill:#1d2021,stroke:#928374,color:#ebdbb2
-    style B fill:#d79921,stroke:#fabd2f,color:#1d2021
-    style C fill:#458588,stroke:#83a598,color:#ebdbb2
-    style D fill:#689d6a,stroke:#8ec07c,color:#ebdbb2
-    style E fill:#3c3836,stroke:#928374,color:#ebdbb2
-    style F fill:#3c3836,stroke:#928374,color:#ebdbb2
-    style G fill:#3c3836,stroke:#928374,color:#ebdbb2
-    style H fill:#3c3836,stroke:#928374,color:#ebdbb2
-    style I fill:#3c3836,stroke:#928374,color:#ebdbb2
-    style J fill:#cc241d,stroke:#fb4934,color:#ebdbb2
-```
+- `=` asigna, `==` compara
+- `/` entre enteros trunca (ej: `5/2` = `2`)
+- `&&` y `||` cortocircuitan (a veces evita `NullPointerException`)
+- Si hay dudas de precedencia, usar paréntesis
 
 ## Palabras clave
 

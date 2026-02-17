@@ -1,9 +1,9 @@
 # CSS - Definición
 
-## Definición 
+## Definición
 CSS (Cascading Style Sheets) es un lenguaje de hojas de estilo utilizado para describir la presentación y el diseño de documentos escritos en HTML o XML. Permite separar el contenido de la estructura, facilitando la personalización visual de las páginas web.
 
-## Explicación 
+## Explicación
 - *Qué problema resuelve*
     El problema principal que resuelve CSS es la necesidad de controlar la apariencia visual de los elementos en una página web de manera eficiente y consistente, sin tener que repetir estilos en cada elemento HTML.
 - *Cómo funciona por arriba*

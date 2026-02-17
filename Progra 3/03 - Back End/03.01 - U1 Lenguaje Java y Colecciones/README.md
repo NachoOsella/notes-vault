@@ -35,7 +35,7 @@ Esta unidad cubre los fundamentos del lenguaje Java y el framework de coleccione
 
 ## 🗺️ Mapa de Contenidos
 
-Ver: [[00 - MOC - BE U1]]
+Ver: [[0 - MOC - BE U1]]
 
 ## 📋 Estructura de Archivos
 

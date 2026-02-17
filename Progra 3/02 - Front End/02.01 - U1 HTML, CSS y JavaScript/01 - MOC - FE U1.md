@@ -1,6 +1,6 @@
 # MOC - FE U1
 
-## Mapa rapido
+## Mapa rápido
 - [[03 - HTML - Definición]]
 - [[06 - CSS - Definición]]
 - [[14 - JS - Funciones]]

@@ -1,9 +1,9 @@
 # HTML - Principales etiquetas
 
-## Definición 
+## Definición
 Las etiquetas HTML son elementos fundamentales para estructurar y presentar contenido en la web. Cada etiqueta tiene un proposito específico, entre las más comunes se encuentran `<div>`, `<span>`, `<a>`, `<img>`, `<p>`, `<h1>`-`<h6>`, `<ul>`, `<ol>`, `<li>`, `<table>`, entre otras.
 
-## Explicación 
+## Explicación
 - *Qué problema resuelve*
     Estructurar y organizar el contenido web de manera semántica y visualmente coherente.
 - *Cómo funciona por arriba*

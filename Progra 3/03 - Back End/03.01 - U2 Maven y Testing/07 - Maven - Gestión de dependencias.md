@@ -1,9 +1,46 @@
 # Maven - Gestión de dependencias
 
 ## Definición
-Proceso clave en la construcción de un proyecto. Las dependencias son bibliotecas y módulos externos de código que se utilizan a lo largo del desarrollo de software para evitar reinventar la rueda y aprovechar soluciones ya existentes. La gestión de dependencias consiste en administrar estas bibliotecas de manera eficiente, asegurando que las versiones correctas estén disponibles y que no haya conflictos entre ellas.
+La gestión de dependencias en Maven es el proceso de declarar bibliotecas externas en `pom.xml` para que Maven las resuelva, descargue y mantenga consistentes (incluyendo dependencias transitivas).
+
+## Explicación
+- *Qué problema resuelve*
+    Evita manejo manual de JARs, reduce conflictos de versiones y hace reproducible el classpath del proyecto.
+- *Cómo funciona por arriba*
+    - Declarás dependencias en `pom.xml` (groupId/artifactId/version)
+    - Maven descarga desde repositorios (ej. Maven Central) al repositorio local
+    - Resuelve dependencias transitivas y selecciona versiones según reglas
+- *Qué implica / qué permite*
+    - Colaboración más simple: todos instalan lo mismo con `mvn`/`mvnw`
+    - Actualizar versiones cambiando un campo en el POM
+    - Excluir transitivas no deseadas cuando causan conflicto o sobran
+
+## Scopes típicos (mapa)
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#458588', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#83a598', 'lineColor': '#a89984', 'secondaryColor': '#689d6a', 'tertiaryColor': '#d79921', 'background': '#1d2021'}}}%%
+mindmap
+  root((Scopes Maven))
+    compile
+      default
+      disponible en compile y runtime
+    test
+      solo tests
+      JUnit, Mockito
+    provided
+      lo da el entorno
+      servlet container
+    runtime
+      no en compile
+      si en runtime
+
+```
+
+## Ejemplos comunes
+
 ### Agregar dependencias
 En Maven, las dependencias se declaran en el archivo `pom.xml` del proyecto. Cada dependencia se especifica con un grupo, un artefacto y una versión.
+
 ```xml
 <dependency>
     <groupId>org.springframework</groupId>
@@ -14,6 +51,7 @@ En Maven, las dependencias se declaran en el archivo `pom.xml` del proyecto. Cad
 
 ### Excluir dependencias transitivas
 A veces, una dependencia que agregás puede traer otras dependencias (transitivas) que no querés. Podés excluirlas así:
+
 ```xml
 <dependency>
     <groupId>com.example</groupId>
@@ -27,14 +65,6 @@ A veces, una dependencia que agregás puede traer otras dependencias (transitiva
     </exclusions>
 </dependency>
 ```
-
-## Explicación
-- *Qué problema resuelve*
-    La gestión de dependencias en Maven resuelve el problema de manejar múltiples bibliotecas y sus versiones en un proyecto de software. Sin una gestión adecuada, los desarrolladores podrían enfrentar conflictos de versiones, duplicación de código y dificultades para mantener el proyecto actualizado con las últimas mejoras y correcciones de errores.
-- *Cómo funciona por arriba*
-    Maven utiliza un archivo de configuración llamado `pom.xml` (Project Object Model) para declarar las dependencias del proyecto. Cuando se construye el proyecto, Maven descarga automáticamente las bibliotecas necesarias desde repositorios remotos (como Maven Central) y las incluye en el classpath del proyecto. Además, Maven maneja las dependencias transitivas, lo que significa que si una dependencia tiene sus propias dependencias, Maven también las descargará y gestionará.
-- *Qué implica / qué permite*
-    La gestión de dependencias en Maven permite a los desarrolladores centrarse en escribir código en lugar de preocuparse por la integración de bibliotecas externas. Facilita la colaboración en equipos, ya que todos los miembros pueden trabajar con las mismas versiones de las dependencias. Además, permite una fácil actualización y mantenimiento del proyecto, ya que las dependencias pueden ser actualizadas simplemente cambiando la versión en el `pom.xml`.
 
 ## Palabras clave
 - Dependencias
@@ -60,4 +90,4 @@ A veces, una dependencia que agregás puede traer otras dependencias (transitiva
 - Olvidar excluir dependencias transitivas no deseadas, lo que puede aumentar innecesariamente el tamaño del proyecto o causar conflictos.
 
 ## Mini-ejemplo (mental)
-La gestion de dependencias es como tener una lista de ingredientes para una receta. En lugar de comprar cada ingrediente por separado, tenés una lista que indica qué ingredientes necesitás y en qué cantidad. Maven se encarga de ir a la tienda (repositorio) y traer todos los ingredientes (dependencias) necesarios para preparar tu plato (proyecto). Si un ingrediente tiene otros ingredientes necesarios (dependencias transitivas), Maven también los trae automáticamente, asegurándose de que todo esté listo para cocinar sin conflictos.
+La gestión de dependencias es como tener una lista de ingredientes para una receta. Maven se encarga de ir a la tienda (repositorio) y traer lo que falta, incluyendo ingredientes “dentro de ingredientes” (dependencias transitivas), evitando compras duplicadas o incompatibles.

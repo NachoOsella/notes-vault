@@ -3,7 +3,7 @@
 ## Definición
 Las etiquetas semánticas en HTML son elementos que describen el significado del bloque de contenido. Facilitan la comprensión del desarrollador y mejoran la accesibilidad y el SEO. Ejemplos incluyen `<header>`, `<nav>`, `<article>`, `<section>`, `<footer>`, entre otras.
 
-## Explicación 
+## Explicación
 - *Qué problema resuelve*
     Proporcionar significado y estructura al contenido web, mejorando la accesibilidad y la interpretación por parte de motores de búsqueda.
 - *Cómo funciona por arriba*

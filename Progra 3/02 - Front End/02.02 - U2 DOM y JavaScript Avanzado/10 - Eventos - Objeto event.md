@@ -125,8 +125,8 @@ Detiene propagación **Y** previene otros listeners en el **mismo elemento**.
 
 ## Comparaciones típicas
 
-- vs [[08 - Eventos - Event flow]]: el objeto event tiene métodos para controlar el flujo
-- vs [[09 - Eventos - Eventos comunes]]: cada tipo de evento genera un objeto con propiedades específicas
+- vs [[08 - Eventos - Event flow (fases y flujo)]]: el objeto event tiene métodos para controlar el flujo
+- vs [[09 - Eventos - Eventos comunes en la web]]: cada tipo de evento genera un objeto con propiedades específicas
 
 ## Preguntas de examen
 

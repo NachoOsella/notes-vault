@@ -104,19 +104,22 @@
 - ¿Cuándo usarías LinkedList sobre ArrayList?
 - ¿Qué estructura permite elementos duplicados y acceso por índice?
 
-## Respuestas (Resumen)
+## Respuestas (opcional)
 
 ### Portabilidad de Java
-Java logra portabilidad mediante el bytecode y la JVM. El código fuente se compila a bytecode (independiente de plataforma), y la JVM específica de cada sistema operativo ejecuta ese bytecode.
+Respuesta: Java logra portabilidad mediante el bytecode y la JVM. El código fuente se compila a bytecode (independiente de plataforma), y la JVM específica de cada sistema operativo ejecuta ese bytecode. Ver: [[01 - Java - Introducción y características]] y [[02 - Java - JDK y JVM]]
 
 ### ArrayList vs LinkedList
 **ArrayList**: Acceso rápido O(1), inserción lenta O(n). Basado en arreglo dinámico.
 **LinkedList**: Acceso lento O(n), inserción rápida O(1). Basado en nodos enlazados.
+Ver: [[10 - Colecciones - Listas (List)]]
 
 ### HashMap vs TreeMap
 **HashMap**: Tabla hash, acceso O(1), sin orden.
 **TreeMap**: Árbol rojo-negro, acceso O(log n), ordenado por clave.
+Ver: [[11 - Colecciones - Mapas (Map)]]
 
 ### Set vs List
 **Set**: No permite duplicados, sin orden específico (generalmente).
 **List**: Permite duplicados, mantiene orden, acceso por índice.
+Ver: [[12 - Colecciones - Conjuntos (Set)]] y [[10 - Colecciones - Listas (List)]]

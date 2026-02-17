@@ -2,59 +2,22 @@
 
 ## Definición
 
-Java es un lenguaje de programación de **alto nivel**, **orientado a objetos** y diseñado para ser **portable y seguro**. Lanzado en 1995 por Sun Microsystems, se ha convertido en uno de los lenguajes más utilizados para desarrollo web, móvil y sistemas empresariales.
+Java es un lenguaje **orientado a objetos** y **portable**: se compila a bytecode y se ejecuta en una JVM, lo que permite correr en múltiples plataformas.
 
 ## Explicación
 
 - *Qué problema resuelve*
-    Java resuelve el problema de la portabilidad entre plataformas. Antes de Java, un programa compilado para Windows no funcionaba en Linux o Mac. Java permite "escribir una vez, ejecutar en cualquier lugar" (WORA - Write Once, Run Anywhere).
+    Resuelve la portabilidad entre sistemas operativos y mejora la robustez al detectar muchos errores en compilación.
 
 - *Cómo funciona por arriba*
-    - Código fuente Java → Compilador (`javac`) → Bytecode
-    - El bytecode es un formato intermedio no específico de plataforma
-    - La **JVM** (Java Virtual Machine) interpreta el bytecode en cada sistema operativo
-    - La JVM traduce a instrucciones nativas del hardware específico
+    - Código fuente `.java` → `javac` → bytecode `.class`
+    - La JVM ejecuta ese bytecode (interpretación/JIT) en cada plataforma
 
 - *Qué implica / qué permite*
-    - Desarrollo multiplataforma sin recompilar
-    - Gestión automática de memoria (garbage collector)
-    - Seguridad mediante sandboxing
-    - Amplia biblioteca de clases estándar
-
-## Características principales
-
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#458588', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#83a598', 'lineColor': '#a89984', 'secondaryColor': '#689d6a', 'tertiaryColor': '#d79921', 'background': '#1d2021'}}}%%
-mindmap
-  root((Java))
-    Alto Nivel
-      Sintaxis cercana al humano
-      Abstracción del hardware
-    Portable
-      JVM
-      Bytecode
-      WORA
-    Orientado a Objetos
-      Clases y Objetos
-      Encapsulamiento
-      Herencia
-      Polimorfismo
-    Seguro
-      Garbage Collector
-      Sin punteros
-      Sandbox
-```
-
-## Programación Orientada a Objetos (POO)
-
-### Pilares de la POO en Java
-
-| Concepto | Descripción |
-|----------|-------------|
-| **Clases y Objetos** | Clase = molde/plantilla. Objeto = instancia concreta |
-| **Encapsulamiento** | Ocultar detalles internos. Modificadores: private, protected, public |
-| **Herencia** | Clase hija adquiere atributos y métodos de clase padre |
-| **Polimorfismo** | Un mismo método tiene diferentes comportamientos según el contexto |
+    - Multiplataforma (WORA: Write Once, Run Anywhere)
+    - Tipado estático (errores antes de ejecutar)
+    - Garbage Collector (memoria automática)
+    - Biblioteca estándar grande (`java.util`, `java.io`, etc.)
 
 ## Proceso de ejecución
 
@@ -78,17 +41,12 @@ flowchart LR
 - Bytecode
 - JVM (Java Virtual Machine)
 - WORA (Write Once, Run Anywhere)
-- POO (Programación Orientada a Objetos)
-- Encapsulamiento
-- Herencia
-- Polimorfismo
 - Garbage Collector
 
 ## Comparaciones típicas
 
-- vs C/C++: Java es más portable (bytecode + JVM) y gestiona memoria automáticamente
-- vs Python: Java es compilado a bytecode (más rápido), fuertemente tipado
-- vs JavaScript: Java es compilado y tipado estáticamente; JS es interpretado y dinámico
+- vs JavaScript: Java es tipado estáticamente (compile-time); JS es dinámico (runtime).
+- vs C/C++: Java gestiona memoria automáticamente y busca portabilidad vía JVM.
 
 ## Preguntas de examen
 

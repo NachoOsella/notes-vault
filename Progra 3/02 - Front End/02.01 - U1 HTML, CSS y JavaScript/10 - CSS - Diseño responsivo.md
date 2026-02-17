@@ -11,6 +11,28 @@ Es una técnica que permite que las páginas web se adapten a los diferentes tam
 - *Qué implica / qué permite*
     Permite diseñar sitios web que son flexibles y adaptables, mejorando la accesibilidad y usabilidad en múltiples dispositivos.
 
+## Herramientas típicas (mapa)
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#458588', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#83a598', 'lineColor': '#a89984', 'secondaryColor': '#689d6a', 'tertiaryColor': '#d79921', 'background': '#1d2021'}}}%%
+mindmap
+  root((Responsivo))
+    Media queries
+      breakpoints
+      orientación
+    Layout
+      Flexbox
+      Grid
+    Unidades
+      %
+      rem/em
+      vw/vh
+    Imágenes
+      max-width: 100%
+      object-fit
+
+```
+
 ## Palabras clave
 - Media queries
 - Breakpoints
@@ -22,7 +44,7 @@ Es una técnica que permite que las páginas web se adapten a los diferentes tam
 - vs [[08 - CSS - Propiedades comunes]]: el responsivo combina propiedades con reglas condicionales; las propiedades son los bloques base.
 
 ## Preguntas de examen
-- ¿Qué es se utilizan los breakpoints en diseño responsivo?
+- ¿Cómo se utilizan los breakpoints en diseño responsivo?
 - ¿Para qué sirve una media query en CSS?
 - ¿Cuál es la diferencia entre diseño fijo y diseño responsivo?
 - ¿Qué pasa si no se implementa diseño responsivo en un sitio web?

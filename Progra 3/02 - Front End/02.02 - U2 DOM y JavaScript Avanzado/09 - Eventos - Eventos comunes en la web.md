@@ -140,9 +140,9 @@ flowchart LR
 
 ## Comparaciones típicas
 
-- vs [[08 - Eventos - Event flow]]: eventos comunes son los "tipos"; el flow es el "cómo se propagan"
+- vs [[08 - Eventos - Event flow (fases y flujo)]]: eventos comunes son los "tipos"; el flow es el "cómo se propagan"
 - vs [[10 - Eventos - Objeto event]]: cada evento genera un objeto con propiedades específicas
-- vs [[07 - DOM - Manipulación]]: eventos son la causa, manipulación del DOM es el efecto
+- vs [[07 - DOM - Manipulación del DOM]]: eventos son la causa, manipulación del DOM es el efecto
 
 ## Preguntas de examen
 

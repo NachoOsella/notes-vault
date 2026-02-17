@@ -12,6 +12,35 @@ Existen varios tipos de selectores, como selectores de tipo, clase, ID, atributo
 - *Qué implica / qué permite*
     Permiten una gran flexibilidad y control sobre el diseño y la apariencia de una página web, facilitando la personalización y adaptación del estilo según diferentes criterios.
 
+## Tipos de selectores (mapa)
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#458588', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#83a598', 'lineColor': '#a89984', 'secondaryColor': '#689d6a', 'tertiaryColor': '#d79921', 'background': '#1d2021'}}}%%
+mindmap
+  root((Selectores CSS))
+    Tipo
+      div
+      p
+      button
+    Clase
+      .card
+      .btn-primary
+    ID
+      #header
+      #app
+    Atributo
+      input[type=\"text\"]
+      a[href]
+    Pseudo-clase
+      :hover
+      :focus
+      :nth-child()
+    Pseudo-elemento
+      ::before
+      ::after
+
+```
+
 ## Palabras clave
 - Selector
 - Regla CSS

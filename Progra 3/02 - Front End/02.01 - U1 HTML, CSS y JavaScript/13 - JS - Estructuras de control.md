@@ -11,6 +11,28 @@ Las estructuras de control en JavaScript son construcciones que permiten dirigir
 - *Qué implica / qué permite*
     Facilitan la creación de lógica compleja en los programas, permitiendo que el código responda a diferentes entradas y estados de manera eficiente.
 
+## Flujo general (idea)
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#1d2021', 'primaryTextColor': '#ebdbb2', 'primaryBorderColor': '#928374', 'lineColor': '#a89984', 'secondaryColor': '#282828', 'tertiaryColor': '#3c3836'}}}%%
+flowchart TD
+  A[Inicio] --> B{¿Condición?}
+  B -->|Sí| C[Ejecutar bloque]
+  B -->|No| D[Otro bloque]
+  C --> E{¿Repetir?}
+  D --> E
+  E -->|Sí| B
+  E -->|No| F[Fin]
+
+  style A fill:#3c3836,stroke:#928374,color:#ebdbb2
+  style B fill:#458588,stroke:#83a598,color:#ebdbb2
+  style C fill:#689d6a,stroke:#8ec07c,color:#ebdbb2
+  style D fill:#689d6a,stroke:#8ec07c,color:#ebdbb2
+  style E fill:#458588,stroke:#83a598,color:#ebdbb2
+  style F fill:#3c3836,stroke:#928374,color:#ebdbb2
+
+```
+
 ## Palabras clave
 - Estructuras de control
 - Condicionales

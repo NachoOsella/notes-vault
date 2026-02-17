@@ -11,6 +11,22 @@ Todos los elementos HTML se representan como cajas rectangulares que consisten e
 - *Qué implica / qué permite*
     Permite a los desarrolladores controlar el espacio y la disposición de los elementos en una página web, facilitando el diseño y la estética del sitio.
 
+## Capas del box model (idea)
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#1d2021', 'primaryTextColor': '#ebdbb2', 'primaryBorderColor': '#928374', 'lineColor': '#a89984', 'secondaryColor': '#282828', 'tertiaryColor': '#3c3836'}}}%%
+flowchart TD
+  M[Margin] --> B[Border]
+  B --> P[Padding]
+  P --> C[Content]
+
+  style M fill:#3c3836,stroke:#928374,color:#ebdbb2
+  style B fill:#458588,stroke:#83a598,color:#ebdbb2
+  style P fill:#689d6a,stroke:#8ec07c,color:#ebdbb2
+  style C fill:#d79921,stroke:#fabd2f,color:#1d2021
+
+```
+
 ## Palabras clave
 - Contenido (Content)
 - Relleno (Padding)

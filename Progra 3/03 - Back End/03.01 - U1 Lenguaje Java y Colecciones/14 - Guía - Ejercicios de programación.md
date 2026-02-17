@@ -1,5 +1,24 @@
 # Guía - Ejercicios de programación Java
 
+## Definición
+
+Una guía de ejercicios es un conjunto de prácticas para aplicar conceptos (variables, control, POO) y ganar fluidez resolviendo problemas concretos.
+
+## Explicación
+
+- *Qué problema resuelve*
+    Convierte teoría en habilidad: obliga a practicar lectura de enunciados, modelado, implementación y validación con casos simples.
+
+- *Cómo funciona por arriba*
+    - Se resuelve por bloques (estructurada → POO)
+    - Cada ejercicio practica 2-5 conceptos clave
+    - Se recomienda avanzar en orden (de lo simple a lo complejo)
+
+- *Qué implica / qué permite*
+    - Identificar puntos débiles (loops, condicionales, modelado de clases)
+    - Generar mini-soluciones reutilizables (helpers, validaciones, métodos)
+    - Prepararse para parciales/prácticos con ejercicios tipo
+
 ## Introducción
 
 Esta guía práctica incluye ejercicios divididos en dos secciones:
@@ -217,6 +236,23 @@ Crear clase Triangulo con:
 - Encapsulamiento
 - Constructores
 - Métodos
+
+## Comparaciones típicas
+
+- vs [[03 - Java - Sintaxis básica]]: la sintaxis explica reglas; la guía te obliga a aplicarlas en problemas.
+- vs [[07 - Java - Estructuras de control]]: la teoría describe condicionales/bucles; los ejercicios entrenan cuándo y cómo usarlos.
+
+## Preguntas de examen
+
+- ¿Por qué conviene resolver ejercicios en orden (de estructurada a POO)?
+- ¿Qué conceptos aparecen más seguido en ejercicios introductorios?
+- ¿Qué buenas prácticas se deberían repetir en todos los ejercicios (validaciones, nombres, etc.)?
+
+## Errores comunes
+
+- Empezar por POO sin dominar condicionales/bucles (se traba todo el flujo).
+- No probar con casos borde (0, negativos, vacíos, límites).
+- Escribir todo en `main` sin separar en métodos (se vuelve ilegible).
 
 ## Mini-ejemplo (mental)
 

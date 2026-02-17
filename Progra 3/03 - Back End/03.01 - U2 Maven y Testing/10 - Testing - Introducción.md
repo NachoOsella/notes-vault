@@ -11,6 +11,20 @@ El testing es el proceso de evaluar y verificar el comportamiento de un sistema,
 - *Qué implica / qué permite*
     Mejora la calidad y eficiencia del desarrollo. Reduce costos al detectar errores temprano. Facilita la colaboración en equipos al garantizar que los cambios no rompan funcionalidades existentes.
 
+## Pirámide de testing (idea)
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#1d2021', 'primaryTextColor': '#ebdbb2', 'primaryBorderColor': '#928374', 'lineColor': '#a89984', 'secondaryColor': '#282828', 'tertiaryColor': '#3c3836'}}}%%
+flowchart TD
+  A[Unit tests: muchos, rápidos] --> B[Integration tests: menos, más lentos]
+  B --> C[E2E/Acceptance: pocos, más costosos]
+
+  style A fill:#689d6a,stroke:#8ec07c,color:#ebdbb2
+  style B fill:#458588,stroke:#83a598,color:#ebdbb2
+  style C fill:#d79921,stroke:#fabd2f,color:#1d2021
+
+```
+
 ## Herramientas principales en Java
 - **JUnit**: Framework de pruebas unitarias para crear y ejecutar tests automatizados.
 - **TestNG**: Alternativa a JUnit con funcionalidades adicionales.

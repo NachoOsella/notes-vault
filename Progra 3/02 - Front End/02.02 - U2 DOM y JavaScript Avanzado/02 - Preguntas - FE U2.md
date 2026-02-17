@@ -60,10 +60,10 @@
 ## Respuestas (opcional)
 
 ### ¿Qué es el modelo cliente-servidor?
-Es una arquitectura donde el cliente (navegador/app) envía solicitudes HTTP a un servidor, que procesa la petición y devuelve una respuesta. Ver: [[16 - Web - Modelo Cliente-Servidor]]
+Respuesta: Es una arquitectura donde el cliente (navegador/app) envía solicitudes HTTP a un servidor, que procesa la petición y devuelve una respuesta. Ver: [[16 - Web - Modelo Cliente-Servidor]]
 
 ### ¿Qué es el DOM?
-El Document Object Model es una interfaz de programación que representa la página web como un árbol de objetos, permitiendo manipular el contenido, estructura y estilo mediante JavaScript. Ver: [[07 - DOM - Manipulación del DOM]]
+Respuesta: El Document Object Model es una interfaz que representa la página como un árbol de objetos, permitiendo manipular contenido, estructura y estilo con JavaScript. Ver: [[07 - DOM - Manipulación del DOM]]
 
 ### ¿Cuáles son las tres fases del event flow?
 1. **Capturing**: el evento desciende desde la raíz al elemento objetivo
@@ -77,4 +77,4 @@ Ver: [[08 - Eventos - Event flow (fases y flujo)]]
 Ver: [[13 - Storage - localStorage]] y [[14 - Storage - sessionStorage]]
 
 ### ¿Qué es una promesa?
-Un objeto que representa el resultado eventual (éxito o fracaso) de una operación asíncrona, permitiendo encadenar operaciones y manejar errores de forma más limpia que los callbacks. Ver: [[19 - JS - Promesas (Promises)]]
+Respuesta: Un objeto que representa el resultado eventual (éxito o fracaso) de una operación asíncrona, permitiendo encadenar operaciones y manejar errores. Ver: [[19 - JS - Promesas (Promises)]]

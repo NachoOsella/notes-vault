@@ -2,23 +2,44 @@
 
 ## Definición
 El ciclo de vida de Maven es una secuencia de fases que se ejecutan en un orden específico para construir, empaquetar y distribuir software. Las fases estan definidas por el archivo POM y son:
-    - *Clean*: Limpia los archivos generados en compilaciones anteriores.
-    - *Validate*: Verifica que el proyecto esté correctamente estructurado.
-    - *Compile*: Compila el código fuente del proyecto.
-    - *Test*: Ejecuta las pruebas unitarias del proyecto.
-    - *Package*: Empaqueta el código compilado en un formato distribuible, como un JAR o WAR.
-    - *Verify*: Realiza verificaciones adicionales en el paquete.
-    - *Install*: Instala el paquete en el repositorio local de Maven.
-    - *Deploy*: Copia el paquete final al repositorio remoto para compartirlo con otros desarrolladores.
-    - *Site*: Genera documentación del proyecto.
+
+- `clean`: limpia archivos generados previamente
+- `validate`: valida estructura del proyecto
+- `compile`: compila el código fuente
+- `test`: ejecuta tests unitarios
+- `package`: empaqueta (JAR/WAR)
+- `verify`: verifica el paquete
+- `install`: instala en repositorio local
+- `deploy`: publica en repositorio remoto
+- `site`: genera documentación
 
 ## Explicación
 - *Qué problema resuelve*
-El ciclo de vida de Maven resuelve el problema de estandarizar y automatizar el proceso de construcción y gestión de proyectos de software, asegurando que todas las fases necesarias se ejecuten en el orden correcto.
+    El ciclo de vida de Maven estandariza y automatiza el proceso de construcción, asegurando que las fases necesarias se ejecuten en el orden correcto.
 - *Cómo funciona por arriba*
-Maven utiliza el archivo POM (Project Object Model) para definir las fases del ciclo de vida y los plugins asociados a cada fase. Cuando se ejecuta un comando de Maven, este determina qué fases deben ejecutarse y llama a los plugins correspondientes para llevar a cabo las tareas definidas en cada fase.
+    Maven usa el `pom.xml` para asociar plugins/goals a fases. Cuando corrés una fase (por ejemplo `mvn test`), Maven ejecuta esa fase y todas las anteriores necesarias, llamando a los plugins correspondientes.
 - *Qué implica / qué permite*
-El ciclo de vida de Maven permite a los desarrolladores automatizar el proceso de construcción, pruebas y despliegue de sus proyectos, reduciendo errores humanos y asegurando consistencia en las entregas. Además, facilita la integración continua y la colaboración entre equipos al proporcionar un marco común para la gestión de proyectos.
+    Permite automatizar build, tests y empaquetado, reduciendo errores humanos y facilitando CI/CD y colaboración.
+
+## Flujo del lifecycle (idea)
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#1d2021', 'primaryTextColor': '#ebdbb2', 'primaryBorderColor': '#928374', 'lineColor': '#a89984', 'secondaryColor': '#282828', 'tertiaryColor': '#3c3836'}}}%%
+flowchart LR
+  A[clean] --> B[validate] --> C[compile] --> D[test] --> E[package] --> F[verify] --> G[install] --> H[deploy]
+  E --> I[site]
+
+  style A fill:#3c3836,stroke:#928374,color:#ebdbb2
+  style B fill:#3c3836,stroke:#928374,color:#ebdbb2
+  style C fill:#458588,stroke:#83a598,color:#ebdbb2
+  style D fill:#689d6a,stroke:#8ec07c,color:#ebdbb2
+  style E fill:#d79921,stroke:#fabd2f,color:#1d2021
+  style F fill:#3c3836,stroke:#928374,color:#ebdbb2
+  style G fill:#458588,stroke:#83a598,color:#ebdbb2
+  style H fill:#3c3836,stroke:#928374,color:#ebdbb2
+  style I fill:#3c3836,stroke:#928374,color:#ebdbb2
+
+```
 
 ## Palabras clave
 - Fases
