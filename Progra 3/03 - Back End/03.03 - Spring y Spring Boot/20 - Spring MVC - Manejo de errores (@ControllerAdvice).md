@@ -18,7 +18,7 @@
 - ResponseEntity
 
 ## Comparaciones tipicas
-- vs [[19 - Spring MVC - Validacion (Bean Validation)]]: validacion detecta datos invalidos; advice define como responder errores.
+- vs [[19 - Spring MVC - Validación (Bean Validation)]]: validacion detecta datos invalidos; advice define como responder errores.
 - vs manejo local en controller: local es puntual; advice es global.
 
 ## Preguntas de examen

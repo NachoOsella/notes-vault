@@ -2,6 +2,42 @@
 
 ## Cliente-Servidor
 
+- Que es la arquitectura cliente-servidor?
+- Cuales son los componentes basicos del modelo?
+- En que se diferencian cliente y servidor?
+- Menciona ventajas y desventajas del modelo.
+- Que ejemplos cotidianos usan cliente-servidor?
+
+---
+
+## HTTP
+
+- Que es HTTP y por que es stateless?
+- Quien inicia la comunicacion en HTTP?
+- Cuales son los pasos del flujo de mensajes HTTP?
+- Que partes componen un request HTTP?
+- Que partes componen un response HTTP?
+- Para que sirven los metodos HTTP?
+- Que indican los codigos de estado 2xx, 4xx y 5xx?
+- Que es un proxy en HTTP?
+- Que cambio entre HTTP/1.1 y HTTP/2?
+
+---
+
+## APIs y Servicios Web
+
+- Que es una API?
+- Cual es la analogia tipica para explicar una API?
+- En que se diferencia una API de un servicio web?
+- Que es REST y que implica ser stateless?
+- Cuales son las caracteristicas clave de REST?
+- Cual es la diferencia clave entre REST y SOAP?
+- Que tipos de APIs existen segun su alcance?
+
+---
+
+## Respuestas (opcional)
+
 ### Que es la arquitectura cliente-servidor?
 Respuesta: Modelo donde un cliente solicita servicios a un servidor a traves de una red, separando roles y responsabilidades. Ver: [[03 - Cliente-Servidor - Características y componentes]]
 
@@ -16,10 +52,6 @@ Respuesta: Ventajas: escalabilidad, integracion, flexibilidad. Desventajas: punt
 
 ### Que ejemplos cotidianos usan cliente-servidor?
 Respuesta: Navegar web, FTP, SSH, correo electronico, juegos en red.
-
----
-
-## HTTP
 
 ### Que es HTTP y por que es stateless?
 Respuesta: Protocolo base de la Web que no guarda estado entre solicitudes; el contexto se maneja con cookies o tokens. Ver: [[11 - HTTP - Características clave]]
@@ -48,10 +80,6 @@ Respuesta: Intermediario que puede cachear, filtrar o balancear trafico entre cl
 ### Que cambio entre HTTP/1.1 y HTTP/2?
 Respuesta: HTTP/2 usa formato binario con tramas y permite multiplexacion; HTTP/1.1 usa texto plano legible.
 
----
-
-## APIs y Servicios Web
-
 ### Que es una API?
 Respuesta: Conjunto de reglas y protocolos para que aplicaciones se comuniquen sin conocer detalles internos. Ver: [[17 - API - Qué es una API]]
 
@@ -72,8 +100,6 @@ Respuesta: REST es ligero y orientado a recursos con JSON/HTTP; SOAP es un proto
 
 ### Que tipos de APIs existen segun su alcance?
 Respuesta: Locales (mismo dispositivo), remotas (en red) y web (remotas basadas en HTTP). Ver: [[21 - API - Tipos de APIs (locales vs remotas vs web)]]
-
----
 
 ## Respuestas rapidas
 
